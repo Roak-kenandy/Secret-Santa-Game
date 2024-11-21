@@ -13,12 +13,12 @@ const generateAssignments = (employees, previousAssignments) => {
       if(child === undefined){
         return
       }
-      
+
     } while (
       child?.Employee_EmailID === employee?.Employee_EmailID ||
       previousAssignments.some(
         prev => prev?.Employee_EmailID === employee?.Employee_EmailID &&
-                prev?.Secret_Child_EmailID === child?.employeeEmailID
+                prev?.Secret_Child_EmailID === child?.Employee_EmailID
       )
     );
 

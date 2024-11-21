@@ -1,0 +1,46 @@
+.secret-santa-main{
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  height: 50%;
+  background: #ffffff;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: center;
+  width: 400px;
+}
+
+.uploaded-employee-list {
+  border: 1px solid grey;
+    border-radius: 3px;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.uploaded-employee-text{
+  display: flex;
+}
+
+.tooltip {
+  font-size: 12px;
+  color: #888;
+  margin-top: 4px;
+}
+
+.uploaded-previous-assignment{
+  margin-top: 18px;
+}
+
+.submit-button {
+  margin-top: 20px;
+  background: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}

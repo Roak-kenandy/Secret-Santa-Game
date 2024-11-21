@@ -1,5 +1,15 @@
-<h2>Upload Employee and Previous Year Files</h2>
-<input type="file" (change)="onFileChange($event, 'employees')" />
-<input type="file" (change)="onFileChange($event, 'previous')"/>
+<div class="secret-santa-main">
+  <h2>Secret Santa Game</h2>
+  <div>Uploaded Employee List</div>
+  <div class="uploaded-employee-list">
+  <input type="file" class="uploaded-employee-text" (change)="onFileChange($event, 'employees')" />
+</div>
+<div class="tooltip">Accepted formats: .xlsx, .csv</div>
 
-<button (click)="submitFiles()">Submit</button>
+<div class="uploaded-previous-assignment">Uploaded Previous Assignment</div>
+<div class="uploaded-employee-list">
+<input type="file" class="uploaded-employee-text" (change)="onFileChange($event, 'previous')" />
+</div>
+<div class="tooltip">Optional: For Preventing duplicate matches</div>
+<button  class="submit-button" (click)="submitFiles()">Submit</button>
+ </div>
