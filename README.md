@@ -1,2 +1,51 @@
-# Secret-Santa-Game
-Automated Secret Santa game generator that assigns employees as secret gift givers while ensuring no one gets themselves or repeats last year's assignment. Includes CSV input/output for employee data and past assignments, with customizable logic and fairness constraints.
+# SecretSanta
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.4.
+
+## Frontend
+## Development server
+
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+
+## Code scaffolding
+
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+
+## Build
+
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+
+## Running unit tests
+
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+## Backend
+Navigate to the Backend Directory
+cd backend
+
+## Dependencies
+
+Install Dependencies:
+npm install
+
+## Environment
+
+Environment Variables: Create a .env file in the backend directory
+touch .env
+## Environment Port Setup
+
+Add the following variables to the .env file:
+PORT=3000
+UPLOAD_DIR=uploads
+
+## Start the server
+Run the Backend Server:
+node app.js
