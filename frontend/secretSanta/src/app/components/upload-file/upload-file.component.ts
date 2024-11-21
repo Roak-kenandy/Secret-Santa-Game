@@ -2,6 +2,7 @@ import { Component, ViewEncapsulation } from '@angular/core';
 import { ApiService } from '../../services/api.service';
 import {MatButtonModule} from '@angular/material/button';
 import { CommonModule } from '@angular/common';
+import { UploadFiles } from './upload-file.constant';
 
 @Component({
   selector: 'app-upload-file',
@@ -12,10 +13,10 @@ import { CommonModule } from '@angular/common';
   encapsulation: ViewEncapsulation.None,
 })
 export class UploadFileComponent {
-
   //COMPONENT VARIABLES
   employeeFile: File | null = null;
   previousFile: File | null = null;
+  fileEntries = UploadFiles;
 
   constructor(private apiService: ApiService){
 
