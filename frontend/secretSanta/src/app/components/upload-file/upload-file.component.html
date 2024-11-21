@@ -1,0 +1,5 @@
+<h2>Upload Employee and Previous Year Files</h2>
+<input type="file" (change)="onFileChange($event, 'employees')" />
+<input type="file" (change)="onFileChange($event, 'previous')"/>
+
+<button (click)="submitFiles()">Submit</button>
